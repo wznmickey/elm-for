@@ -19,9 +19,11 @@ Type `outer` (`o`) is the data used.
 `( Int->  io -> io)`(`f`) set a function which use `i` as index of the `for` function to map from `io` to `io`.
 
 C++ style code :
+
     for (int index = i ; index < n ; index++) o=f(index,o);
 
 Example :
+
     For.for
         0
         10
